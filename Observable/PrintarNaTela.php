@@ -13,6 +13,8 @@ class PrintarNaTela implements Observer
         $this->climaObservable->addObservers($this);
     }
 
+    //Toda vez que o observable é atualizado o observer recebe
+    //um update, e isso faz ele executar a o metodo abaixo
     public function update()
     {
         echo "temperatura atual: " . $this->climaObservable->getTemperatura(). "<br>";
