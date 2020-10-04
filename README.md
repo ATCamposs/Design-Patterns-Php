@@ -22,3 +22,6 @@ Um adaptador é basicamente um classe que separa o cliente do método, fazendo c
 OBSERVABLE:
 Se baseia na premissa de que uma classe observable(observável) tem que ter uma classe observer(observador) que é quem aqueles que querem o resultado da observable devem perguntar sobre mudanças na classe para evitar pooling
 
+DECORATOR:
+O decorator encapsula o objeto anterior com objetos proprios para criar uma quantidade infinita de objetos. sempre encapsulando o objeto base dentro de outro...
+Tudo isso vai ter um resultado unico. que é a junção de todos esses decorators.
