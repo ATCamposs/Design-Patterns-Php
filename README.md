@@ -13,3 +13,8 @@ Evita que você precise fazer chamadas específicas(exemplo escolher entre 1 ban
 COMPOSITE:
 Compões objetos em uma arvore para representar uma hierarquia completa.
 Define relacionamentos entre objetos, geralmente relacionamentos um para muitos (one to many)
+
+ADAPTER:
+exemplo:
+você pode fazer uma tomada(metodo/classe) de 2 pinos lisa caber dentro de uma tomada de 3 pinos redonda usando um adaptador(classe) que faz a conexão.
+Um adaptador é basicamente um classe que separa o cliente do método, fazendo com que você possa adaptar metodos com saidas "diferentes" para serem usados pelo cliente.
